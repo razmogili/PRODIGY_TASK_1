@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#game {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  justify-content: center;
+  margin: 0 auto 20px;
+
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border: 2px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cell:hover {
+  background-color: #f0f0f0;
+}
+
+#status {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#restart {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
